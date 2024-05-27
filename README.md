@@ -49,7 +49,7 @@ All experiments were done on the **[Heidelberg](https://zenkelab.org/datasets/) 
 
 ## Getting started
 
-*The versions listed in this section have been tested on a Ubuntu 22.04 machine. Different versions may also work, but have not been tested. Certain scripts assume a linux-based filesystem is being used, if working on a windows machine please edit the scripts accordingly. The experiments were run on NVIDIA RTX A5000 and *
+*The versions listed in this section have been tested on a Ubuntu 22.04 machine. Different versions may also work, but have not been tested. Certain scripts assume a linux-based filesystem is being used, if working on a windows machine please edit the scripts accordingly. The experiments were run on NVIDIA RTX A5000 and GeForce GTX 1080 Ti*
 
 Installing a [Conda](https://docs.conda.io/en/latest/) environment with **python=3.11.5** to meet the requirements is strongly suggested.
 
