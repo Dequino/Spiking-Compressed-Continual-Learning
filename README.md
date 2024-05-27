@@ -1,7 +1,11 @@
 # Spiking Compressed Continual Learning
 This is the official Pytorch implementation of **\[ISVLSI 2024\]** - [Spiking Compressed Continual Learning](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
-**Spiking Neural Networks (SNNs)** are **bio-inspired**, **power efficient** neuron models that specialize in efficiently processing **time series**. 
+**Spiking Neural Networks (SNNs)** are **bio-inspired**, **power efficient** neuron models that specialize in efficiently processing **time series**.
+
+<div align="center">
+    <img width="50%" src="https://github.com/Dequino/Spiking-Compressed-Continual-Learning/blob/main/figure/snnn.png?raw=true"/>
+</div>
 
 We experiment **Continual Learning** strategies on this family of models, an approach relatively unexplored in the Spiking-related research field, to make them adapt to evolving environments without forgetting past knowledge.
 
@@ -30,4 +34,11 @@ All experiments were done on the **[Heidelberg](https://zenkelab.org/datasets/) 
 </div>
 
 1. **Latent Replays (LRs) in Spiking Neural Networks** - On a pretrained network, when adding new data we first **freeze** first N layers and train only the last ones. We **replay past latent activations** (spike sequences) to avoid forgetting. On narrow layers, we have **memory saving** compared to raw rehearsal.
+
+<div align="center">
+    <img width="50%" src="https://github.com/Dequino/Spiking-Compressed-Continual-Learning/blob/main/figure/compression.png?raw=true"/>
+</div>
+
+2. **Compressed Latent Replays** - Because we need to store the full spike sequence for each past sample, we use a **lossy time compression** (1). The sub-sampled spike sequences can have different compression ratios (in the image, a 1:4 compression ratio). When replaying past data, we do a **run-time un-compression** (2) to respect time constants.
+
 
