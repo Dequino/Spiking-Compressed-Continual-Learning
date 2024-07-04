@@ -1,5 +1,5 @@
 # Spiking Compressed Continual Learning
-This is the official Pytorch implementation of **\[ISVLSI 2024\]** - [Spiking Compressed Continual Learning](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+This is the official Pytorch implementation of **\[ISVLSI 2024\]** - [Spiking Compressed Continual Learning](https://arxiv.org/abs/2407.03111).
 
 **Spiking Neural Networks (SNNs)** are **bio-inspired**, **power efficient** neuron models that specialize in efficiently processing **time series**.
 
