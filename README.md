@@ -85,7 +85,21 @@ You can now navigate to the test folder you desire to run, and run the correspon
 ## Citation
 If this repository has been useful for you, please do cite our work, thank you.
 
-(Google scholar citation pending...)
+`
+@inproceedings{dequino2024compressed,
+  title={Compressed Latent Replays for Lightweight Continual Learning on Spiking Neural Networks},
+  author={Dequino, Alberto and Carpegna, Alessio and Nadalini, Davide and Savino, Alessandro and Benini, Luca and Di Carlo, Stefano and Conti, Francesco},
+  booktitle={2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)},
+  pages={240--245},
+  year={2024},
+  organization={IEEE}
+}
+`
+
+### Acknowledgements
+This work received support from Swiss National Science Foundation Project 207913 "TinyTrainer: On-chip Training for TinyML devices"
+
+
 
 
  
